@@ -9,15 +9,19 @@ body{
     
 }
 
-header {
-
+a{
+    text-decoration: none;
 }
 
+.navigation{
+    color: rgb(110, 46, 46);
+    font-size: 30px;
+}
 
 
 .intro{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
+    
     color: rgb(110, 46, 46);
     
 
@@ -38,13 +42,18 @@ header {
 
 
 .welcome{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     font-size: 28px;
     background-image: url("/img/Incesticide.png");
     background-repeat:no-repeat;
     background-size:cover;
     height: 1200px;
     
+}
+
+.text-1{
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
