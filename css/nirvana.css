@@ -1,12 +1,6 @@
 * {
     padding: 0%;
     margin: 0%;
-
-}
-
-
-body{
-    
 }
 
 a{
@@ -22,18 +16,17 @@ a{
     font-size: 30px;
 }
 
+.block-color{
+    background-color: rgb(110, 46, 46); ;
+}
 
 .intro{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     color: rgb(110, 46, 46);
-    
-
     background-image: url("/img/inutero-bg.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     height: 1200px;
-    
 }
 
 .vodka{
@@ -45,14 +38,13 @@ a{
 }
 
 
+
 .welcome{
-    
     font-size: 28px;
     background-image: url("/img/Incesticide.png");
     background-repeat:no-repeat;
     background-size:cover;
     height: 1200px;
-    
 }
 
 .text-1{
@@ -61,18 +53,14 @@ a{
 }
 
 h1 {
-
     font-size: 80px;
-    
 }
 
 
 
 h3 {
-
     color: rgb(27, 27, 27);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .members {
@@ -80,7 +68,6 @@ font-size: 26px;
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .images {
