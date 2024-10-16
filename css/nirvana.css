@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+.menu-button{
+    background-color: rgb(110, 46, 46);
+}
+
 .navigation{
     color: rgb(110, 46, 46);
     font-size: 30px;
