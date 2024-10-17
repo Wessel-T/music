@@ -3,8 +3,16 @@
     margin: 0%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
+}
+
+div{
+    border: 1px solid black;
 }
 
 .menu-button{
