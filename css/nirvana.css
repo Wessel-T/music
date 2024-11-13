@@ -64,6 +64,10 @@ h1 {
     font-size: 80px;
 }
 
+h2{
+    font-weight: bold;
+}
+
 
 
 h3 {
@@ -82,3 +86,25 @@ font-size: 26px;
     display: flex;
     justify-content: space-evenly;
 }
+
+.chapter-1{}
+
+
+
+
+
+.alinea-1{
+
+}
+
+
+
+.chapter-2{
+    background-image: url(/img/Strook\ website\ B.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+
+}
+
+.chapter-3{}
