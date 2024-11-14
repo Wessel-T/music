@@ -100,11 +100,13 @@ font-size: 26px;
 
 
 .chapter-2{
+    
+
+}
+
+.chapter-3{
     background-image: url(/img/Strook\ website\ B.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 1200px;
-
 }
-
-.chapter-3{}
