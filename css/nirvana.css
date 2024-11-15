@@ -2,6 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
+/* 
+div{
+    border: 3px solid black;
+} */
 
 body{
     overflow-x: hidden;
@@ -71,7 +75,7 @@ h2{
 
 
 h3 {
-    color: rgb(27, 27, 27);
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -87,22 +91,24 @@ font-size: 26px;
     justify-content: space-evenly;
 }
 
+.albums{
+    color:darkblue ;
+    background-image: url(/img/Nevermind-background.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .chapter-1{}
-
-
-
-
 
 .alinea-1{
 
 }
 
-
-
 .chapter-2{
-    
-
+   
 }
+
+
 
 .chapter-3{
     background-image: url(/img/Strook\ website\ B.jpg);
