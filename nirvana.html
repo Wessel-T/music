@@ -15,22 +15,31 @@
 </head>
 
 <body>
-  <nav class="navbar menu-button vw-100 border-bottom border-black border-3">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header class="sticky-top">
+    <nav class="navbar menu-button vw-100 border-bottom border-black border-3">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4 border-bottom border-black border-3">
+        <a href="#start">
+          <h4 class="chapters text-light">1. The start</h4>
+        </a>
+        <a href="#band">
+          <h4 class="chapters text-light">2. The band</h4>
+        </a>
+        <a href="#work">
+          <h4 class="chapters text-light">3. The work</h4>
+        </a>
+      </div>
     </div>
-  </nav>
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4 border-bottom border-black border-3">
-      <a href="#start"><h4 class="chapters text-light" >1. The start</h4></a>
-      <a href="#band"><h4 class="chapters text-light" >2. The band</h4></a>
-      <a href="#work"><h4 class="chapters text-light" >3. The work</h4></a>
-    </div>
-  </div>
+  </header>
 
 
   <!-- title -->
@@ -60,27 +69,17 @@
       </div>
 
 
-        <div class="col-md-1 block-color border-end border-black border-3">
-          <div class=" align-items-center align-items-start px-3 pt-2 text-white"></div>
-        </div>
+      <div class="col-md-1 block-color border-end border-black border-3">
+        <div class=" align-items-center align-items-start px-3 pt-2 text-white"></div>
       </div>
-
-
-      <!-- 
-        <div class="px-0 border-bottom border-black border-5">
-          
-            <div class="col-md-1 block-color border-end border-black border-3">
-              <div
-                class="d-flex flex-column align-items-center align-items-end px-3 pt-2 text-white min-vh-100">c</div>
-            </div> -->
-
-
     </div>
+
+  </div>
   </div>
   </div>
 
   <!-- intro -->
-  <div class="container-fluid welcome">
+  <div class="container-fluid welcome" id="start">
     <div class="row">
       <div class="col-1 d-flex justify-content-center"></div>
       <div class="col-5 d-flex justify-content-center">
@@ -98,8 +97,7 @@
         <div class="col-5 mt-5">
 
           <!-- chapter-1 -->
-
-          <h2 id="start">1. The Start.</h2>
+          <h2>1. The Start.</h2>
           <h4 class="mt-4 alinea-1">
             Nirvana was an influential grunge band formed in 1987 in Aberdeen,
             Washington, by Kurt Cobain (singer and guitarist) and Krist
@@ -148,31 +146,75 @@
     </div>
   </div>
 
-<!-- chapter-2 -->
- <div class="block"></div>
+
+  <!-- chapter-2 -->
   <div class="container-fluid chapter-2">
+    <h2 class="text-white">2. The Band.</h2>
+    <img class="band-img d-flex justify-content-center align-items-center" src="/img/nirvana-band.PNG" alt="">
+
     
-      <div class=" d-flex justify-content-center align-items-center">
-        <h2 id="band">2. The Band.</h2>
-        <br>
-        <!-- <img src="/img/nirvana-band.PNG" alt=""> -->
-      </div>
-      
-</div>
-<div class="block"></div>
+    <!-- Kurt -->
+    <div class="mt-4 kurt">
+      <h1 class="text-warning">Kurt Cobain</h1>
+      <h4>
+        Nirvana was an influential grunge band formed in 1987 in Aberdeen,
+        Washington, by Kurt Cobain (singer and guitarist) and Krist
+        Novoselic (bassist). The band had several drummers, but Dave Grohl,
+        who joined in 1990, was the longest-serving. With their album
+        "Nevermind" in the early '90s, Nirvana took the music industry by
+        storm and brought grunge to a bigger audience. Their sound and
+        impact are still huge to this day and age.
+      </h4>
+    </div>
+
+    <!-- Dave -->
+    <div class="mt-5 dave">
+      <h1 class="text-warning">Dave Grohl</h1>
+      <h4>
+        The band made three official albums, five live albums. They released
+        twenty-one singles, including "Smells Like Teen Spirit" and "Come As
+        You Are". After the band signed with the major label DGC Records,
+        they experienced unexpected success with the single "Smells Like
+        Teen Spirit" from their second album Nevermind (1991). This marked
+        Nirvana's entry into the mainstream and brought the grunge genre
+        with it. Frontman Kurt Cobain was said to be a "voice of a generation"
+        by the media.
+      </h4>
+    </div>
+
+    <!-- Krist -->
+    <div class="mt-5 krist">
+      <h1 class="text-warning">Krist Novoselic</h1>
+      <h4>
+        The band made three official albums, five live albums. They released
+        twenty-one singles, including "Smells Like Teen Spirit" and "Come As
+        You Are". After the band signed with the major label DGC Records,
+        they experienced unexpected success with the single "Smells Like
+        Teen Spirit" from their second album Nevermind (1991). This marked
+        Nirvana's entry into the mainstream and brought the grunge genre
+        with it. Frontman Kurt Cobain was said to be a "voice of a generation"
+        by the media.
+      </h4>
+    </div>
+
+  </div>
 
 
-<!-- chapter-3 -->
- 
-<div class="container-fluid chapter-3">
-  
+
+
+
+
+
+
+  <!-- chapter-3 -->
+
+  <!-- <div class="container-fluid chapter-3">
     <div class=" d-flex justify-content-center align-items-center bg-dark">
-      <h2 id="work" class="text-white ">3. The Work.</h2>
+      <h2 id="work" class="text-white">3. The Work.</h2>
       <br>
       <p></p>
     </div>
-    
-</div>
+  </div>
 </body>
 
-</html>
+</html> -->

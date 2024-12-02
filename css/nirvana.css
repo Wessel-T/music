@@ -107,17 +107,19 @@ font-size: 26px;
 .block{
     height: 120px;
     background-color: black;
+    color: rgb(179, 159, 159);
 }
 
 .chapter-2{
-    background-image: url(/img/nirvana-band.PNG);
-    background-size:contain;
-    background-repeat:no-repeat;
-    height: 800px;
+    
     background-color: black;
-
 }
 
+.band-img{
+    height: 800px;
+    width: 1800px;
+    
+}
 
 
 .chapter-3{
