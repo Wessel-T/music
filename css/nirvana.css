@@ -38,7 +38,7 @@ div{
     background-image: url("/img/inutero-bg.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    height: 1200px;
+    height: 1000px;
 }
 
 .vodka{
@@ -80,10 +80,10 @@ h3 {
 }
 
 .members {
-font-size: 26px;
+    color: burlywood;
+    font-size: 26px;
     margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
+    
 }
 
 .images {
